@@ -1,0 +1,7 @@
+<div class="home">
+ <h1> Hola, {{nombre}}</h1>
+<div class="input-group">
+<button [disabled]="modificado" (click)="cambiarNombre()"> Cambiar nombre</button>
+<input type="text" [(ngModel)]="nuevoNombre">
+</div>
+</div>
