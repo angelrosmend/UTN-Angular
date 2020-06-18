@@ -63,3 +63,15 @@ input {
  width: 150px;
  font-weight: bold;
 }
+
+.less{
+ color: rgb(226, 214, 37);
+}
+
+.more{
+ color: red;
+}
+
+.warning{
+ color: rgb(139, 1, 29);
+}
