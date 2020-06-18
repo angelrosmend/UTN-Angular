@@ -1,0 +1,25 @@
+h1{
+ margin-top: 50px;
+ text-align: center;
+}
+.product-list{
+ display: grid;
+ grid-template-columns: repeat(3, minmax(300px, 1fr));
+ grid-gap: 1.5rem;
+ padding: 70px 50px;
+
+}
+.card{
+ box-shadow: 0px 1px 5px #555;
+ display: flex;
+ justify-content: center;
+ padding: 50px 70px;
+ align-items: center;
+ flex-direction: column;
+ background-color: white;
+}
+
+.photo img{
+ width: 200px;
+ height: 200px;
+}
