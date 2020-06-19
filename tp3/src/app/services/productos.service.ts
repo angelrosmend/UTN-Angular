@@ -8,6 +8,6 @@ export class ProductosService {
 
   constructor(private http:HttpClient) { }
   getAll(){
-    return this.http.get("https://my-json-server.typicode.com/angelrosmend/paintings-db/paintings")
+    return this.http.get("https://jsonfy.com/items")
   }
 }

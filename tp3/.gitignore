@@ -7,11 +7,6 @@
 # Only exists if Bazel was run
 /bazel-out
 
-/tp-2
-
-
-Rosales_unidad1.zip
-
 # dependencies
 /node_modules
 

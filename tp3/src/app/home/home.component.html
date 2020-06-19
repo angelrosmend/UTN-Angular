@@ -1,0 +1,10 @@
+<h1> Nuestros Productos</h1>
+<section class="product-list">
+<article class="card" *ngFor="let producto of productos">
+ <figure class="photo"> <img src="https://www.computeruniverse.net/images/900/90778117B4978AB721BD454FAAB0426A.jpg"></figure>
+ <div class="card-footer">
+ <p>Nombre: {{producto.name}}</p>
+ <p>Precio: {{producto.price}}</p>
+ </div>
+</article>
+</section>
